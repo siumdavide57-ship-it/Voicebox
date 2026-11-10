@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voicebox - Sistema Voiceover Gratuito</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #f8fafc; padding: 20px; margin: 0; }
+        .container { max-width: 600px; margin: 0 auto; background: #1e293b; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); }
+        h1 { font-size: 1.5rem; color: #38bdf8; margin-top: 0; }
+        textarea { width: 100%; height: 150px; background: #0f172a; color: #fff; border: 1px solid #334155; border-radius: 8px; padding: 10px; font-size: 1rem; box-sizing: border-box; resize: vertical; }
+        button { background: #38bdf8; color: #0f172a; border: none; padding: 12px 20px; font-weight: bold; border-radius: 8px; width: 100%; margin-top: 15px; cursor: pointer; font-size: 1rem; }
+        button:hover { background: #0ea5e9; }
+        .badge { display: inline-block; background: #0284c7; color: #e0f2fe; padding: 4px 10px; border-radius: 20px; font-size: 0.85rem; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sistema Voiceover Gratuito</h1>
+        <div class="badge">Pronto per il Batch (#)</div>
+        <p>Scrivi il tuo testo (usa # per separare i titoli in batch):</p>
+        <textarea placeholder="# Intro&#10;Benvenuti nel podcast..."></textarea>
+        <button onclick="alert('Generazione avviata con successo!')">Genera Voiceover</button>
+    </div>
+</body>
+</html>
